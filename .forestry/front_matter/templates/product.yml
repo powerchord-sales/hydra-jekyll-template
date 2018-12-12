@@ -1,0 +1,18 @@
+---
+label: Product
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Product Name
+  name: title
+  config:
+    required: true
+- type: textarea
+  label: Product Description
+  name: description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group
