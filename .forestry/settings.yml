@@ -15,6 +15,11 @@ sections:
   label: Staff members
   create: all
   match: "**/*"
+- type: directory
+  path: _products
+  label: Products
+  create: all
+  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
