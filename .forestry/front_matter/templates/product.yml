@@ -15,4 +15,3 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: field_group
