@@ -29,7 +29,7 @@ collections:
   staff_members:
     _hide_content: true
   products:
-    _hide_content: true
+    output: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
